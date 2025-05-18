@@ -33,7 +33,7 @@ export const fetchNews = async (
 ): Promise<NewsResponse> => {
   try {
     // const url = `${BASE_URL}/everything?q=${query}&from=${fromDate}&sortBy=${sortBy}&apiKey=${API_KEY}&pageSize=${pageSize}&page=${page}`;
-   let url = `https://ad8a-2400-1a00-b030-e870-5119-8290-24c-9839.ngrok-free.app/bitcoin-news`
+   let url = `https://ad8a-2400-1a00-b030-e870-5119-8290-24c-9839.ngrok-free.app/tesla-news`
     
     // if (category) {
     //   url += `&category=${category}`;
@@ -66,7 +66,7 @@ export const fetchTopHeadlines = async (
 ): Promise<NewsResponse> => {
   try {
     // let url = `${BASE_URL}/top-headlines?country=${country}&apiKey=${API_KEY}&pageSize=${pageSize}&page=${page}`;
-    let url = `https://ad8a-2400-1a00-b030-e870-5119-8290-24c-9839.ngrok-free.app/bitcoin-news`
+    let url = `https://ad8a-2400-1a00-b030-e870-5119-8290-24c-9839.ngrok-free.app/tesla-news`
     
     // if (category) {
     //   url += `&category=${category}`;
